@@ -404,7 +404,7 @@ async function synthesizeSpeech(text) {
 
 const promise = fetch("https://apis.scrimba.com/deckofcards/api/deck/new/shuffle/")
 const promise2 = promise.then(res => res.json())
-console.log(promise2)
+// console.log(promise2)
 
 
 
